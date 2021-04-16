@@ -1,0 +1,26 @@
+body {
+    background-color: #0e5596;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 600px;
+    height: auto;
+}
+
+.display-user-agent {
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+}
